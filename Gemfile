@@ -16,9 +16,11 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'devise'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk', '~> 1.20.0'
+gem 'masonry-rails', '~> 0.2.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'bootstrap-sass'
+gem 'jquery-turbolinks'
 
 group :development, :test do 
 	gem 'sqlite3'
